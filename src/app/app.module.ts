@@ -24,7 +24,7 @@ import { MessagesComponent } from './messages/messages.component';
 
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
     // and returns simulated server responses.
-    // Remove it when a real server is ready to receive requests.
+    // Remove it when a real server is ready to receive requests.aaa
     HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, { dataEncapsulation: false }
     )
